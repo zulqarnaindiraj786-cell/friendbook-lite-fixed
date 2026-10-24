@@ -1,5 +1,5 @@
 name: friendbook
-description: A lightweight social app for connecting with friends.
+description: A modern social app for connecting with friends.
 
 publish_to: "none"
 
@@ -13,16 +13,19 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  google_mobile_ads: ^5.1.0
   firebase_core: ^2.24.0
   firebase_auth: ^4.15.0
   cloud_firestore: ^4.15.0
   firebase_storage: ^11.5.0
+  google_sign_in: ^6.2.1
   image_picker: ^1.0.7
   provider: ^6.1.2
   shared_preferences: ^2.2.2
-  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  video_player: ^2.8.1
+  timeago: ^3.6.1
   intl: ^0.19.0
+  uuid: ^4.3.3
 
 dev_dependencies:
   flutter_test:
